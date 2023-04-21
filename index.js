@@ -1,11 +1,11 @@
-let output = document.getElementById('outputText'); 
-let gespoint = document.getElementById('enterBtn');
-let guesagain = document.getElementById('againBtn');
+let output = document.getElementById('output-text'); 
+let gespoint = document.getElementById('enter-btn');
+let guesagain = document.getElementById('again-btn');
 
 let answer = Math.floor(Math.random() * 100);  
 
 function checkNumber(){
-   let input = document.getElementById("userInput").value;
+   let input = document.getElementById("user-input").value;
    if(input == answer){
     output.innerHTML = "guess right" + "," + "guess was" + answer 
     output.style.color = "blue"
