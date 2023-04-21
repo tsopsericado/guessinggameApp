@@ -1,0 +1,12 @@
+#container {
+	margin: auto;
+	border: 5px solid lightgrey;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	height: 250px;
+	max-width: 560px;
+	background-color: grey;
+}
+
+
